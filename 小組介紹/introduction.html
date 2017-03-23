@@ -2,6 +2,9 @@
 <html lang="en-us">
 <head>
 <style>
+*{
+  font-family: "微軟正黑體";
+}
 .city {
    float: left;
    margin: 10px;
@@ -9,10 +12,24 @@
    width: 300px;
    height: 300px;
    border: 1px solid black;
+   overflow: auto;
 } 
 .Hou{
   color:powderblue;
   font-size: 150%;
+}
+#aliven_table *{
+  color: #222;
+}
+#aliven_table div{
+  margin-bottom: 20px;
+}
+#aliven_table label{
+  margin-right: 10px;
+  font-weight: 700;
+}
+#aliven_table td{
+  padding: 10px;
 }  
 </style>
 </head>
@@ -89,8 +106,15 @@
 </table>
 </div>
 
-<div class="city">
- 
+<div class="city" id="aliven_table" >
+  <h2>楊善謙</h2>
+  <div><label>生日</label> 11/29</div>
+  <div><label>星座</label> 射手</div>
+  <div><label>性別</label> 男</div>
+  <table border="1" cellpadding="0" cellspacing="0">
+    <tr><td>興趣</td><td>睡覺 吃飯</td></tr>
+    <tr><td>願望</td><td>平安畢業</td></tr>
+  </table>
 </div>
 
 </body>
